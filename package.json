@@ -1,0 +1,21 @@
+{
+  "name": "create-ymnnk",
+  "version": "1.0.0",
+  "description": "Boilerplating tool that helps you set up a rock-solid microservice architecture in the cloud in only a few hours.",
+  "main": "create-project.js",
+  "bin": {
+    "create-ymnnk": "create-project.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "edit-json-file": "^1.2.1",
+    "fs-extra": "^7.0.1",
+    "inquirer": "^6.2.2"
+  },
+  "devDependencies": {}
+}

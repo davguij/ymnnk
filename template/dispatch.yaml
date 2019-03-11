@@ -1,0 +1,9 @@
+# The dispatch file can contain up to 20 routing rules.
+# When specifying the URL string, neither the hostname
+# nor he path can be longer than 100 characters.
+
+dispatch:
+  - url: '*/colors' # this microservice only exposes one endpoint, without any routing
+    service: external-api-service
+  - url: '*/products*' # this microservice exposes several endpoints with a router
+    service: cloudstore-service

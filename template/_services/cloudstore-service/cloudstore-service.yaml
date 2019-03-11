@@ -1,0 +1,9 @@
+runtime: nodejs10 # For Node.js 8, use runtime: nodejs8
+service: cloudstore-service # update your service name here
+
+env_variables:
+  NODE_ENV: 'production'
+
+automatic_scaling:
+  max_instances: 5
+  min_instances: 0
